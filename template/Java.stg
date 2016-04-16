@@ -1,0 +1,9 @@
+method(name,code) ::= <<
+public void <name>() {
+    <@preamble()>
+    <code>
+}
+>>
+
+
+test(expr,code) ::= "if (<@eval><expr><@end>) {<code>}"

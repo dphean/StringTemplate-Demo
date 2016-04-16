@@ -1,0 +1,4 @@
+import "Java.stg"
+@method.preamble() ::= <<System.out.println("enter");>>
+
+@test.eval() ::= "trackAndEval(<expr>)"
